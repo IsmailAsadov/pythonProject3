@@ -1,11 +1,10 @@
-class parts:
-    B = []
-    M = []
-brand= "None"
-class cars(brand):
-    def __init__(self):
-        self.brand = brand
-bmw = cars("BMW")
-mercedes = cars("Mercedes")
-parts.B.append(input("What parts should we install in BMW:"))
-parts.M.append(input("What parts should we install in mercedes:"))
+class toys(x,y):
+    toysF = [x]
+    toysM = [y]
+class dogs(nickname):
+    def __init__(self, nickname):
+        self.nickname = nickname
+foofy = dogs("Foofy")
+max= cars("Max")
+parts.x(input('What toys do you want to give to Foofy'))
+parts.y(input('What toys do you want to give to Max'))
