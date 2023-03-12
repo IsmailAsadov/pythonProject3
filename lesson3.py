@@ -12,8 +12,6 @@ class Human():
             pass
         def get_car(self):
             pass
-        def get_home(self):
-            pass
 class Auto:
     def __init__(self, brand):
         self.brand = brand
