@@ -1,15 +1,13 @@
-class mercedes:
+class Car:
+    autopilot = False
+    color = "grey"
+    interior = "velvet"
+    year = 2007
+class Mercedes(Car):
     year = 2009
-class bmw:
+class Bmw(Car):
     color = 'blue'
-class audi:
+class Audi(Car):
     interior = "Leather"
-class tesla:
+class Tesla(Car):
     autopilot = True
-class available_cars(mercedes, bmw, audi, tesla):
-    pass
-ac = available_cars
-print(ac.year)
-print(ac.color)
-print(ac.interior)
-print(ac.autopilot)
