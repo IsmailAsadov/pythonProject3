@@ -1,8 +1,8 @@
 import sqlite3
 from bs4 import BeautifulSoup
 import requests
-resp = requests.get( "https://www.accuweather.com/ru/az/baku/27103/current-weather/27103?partner=wdg_operanrw_web" )
-soup = BeautifulSoup(resp.text, features="html.parser")
+response = requests.get( "https://www.accuweather.com/ru/az/baku/27103/current-weather/27103?partner=wdg_operanrw_web" )
+soup = BeautifulSoup(response.text, features="html.parser")
 Temperature= str(soup.find("div", 'display-temp'))
 
 

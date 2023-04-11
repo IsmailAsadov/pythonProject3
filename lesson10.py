@@ -1,7 +1,7 @@
 import sqlite3
 
-connection  = sqlite3.connect('itstep_DB.sl3', 5)
+connection  = sqlite3.connect('itstep.sl3', 5)
 cur = connection.cursor
-cur.execute("CREATE TABLE first table (name TEXT)")
-connection.commit
+cur.execute("CREATE TABLE first_table (name date_temp);")
+cur.commit
 connection.close
